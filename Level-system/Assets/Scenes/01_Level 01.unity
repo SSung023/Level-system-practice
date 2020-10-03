@@ -344,6 +344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12e121e4abe2d6b49942919dedaba9af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelIndex: 1
 --- !u!1 &1008686506
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,7 +542,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1418080571}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 913409572}
+        m_TargetAssemblyTypeName: SingleLevel, Assembly-CSharp
+        m_MethodName: PressStarButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1629752292
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,7 +1028,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1771155743}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 913409572}
+        m_TargetAssemblyTypeName: SingleLevel, Assembly-CSharp
+        m_MethodName: PressStarButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1807527590
 GameObject:
   m_ObjectHideFlags: 0
@@ -1134,7 +1159,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1807527592}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 913409572}
+        m_TargetAssemblyTypeName: SingleLevel, Assembly-CSharp
+        m_MethodName: PressStarButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2031080352
 GameObject:
   m_ObjectHideFlags: 0
@@ -1253,4 +1290,16 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2031080354}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 913409572}
+        m_TargetAssemblyTypeName: SingleLevel, Assembly-CSharp
+        m_MethodName: PressStarButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

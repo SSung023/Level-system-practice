@@ -12,11 +12,33 @@ public class LevelSelection : MonoBehaviour
     public Image unlockImage;
     public GameObject[] stars;
 
+    public Sprite starSprite;
 
+
+    private void Start()
+    {
+        PlayerPrefs.DeleteAll();
+    }
     
     private void Update()
     {
         UpdateLevelImage(); // TODO Move this method later
+        UpdateLevelStatus(); // TODO Move this method later
+    }
+
+    private void UpdateLevelStatus()
+    {
+        // if current Lv is 5, the pre should be 4
+        int previousLevelNum = int.Parse(gameObject.name) - 1;
+        if (PlayerPrefs.GetInt("Lv" + previousLevelNum.ToString()) > 0)
+        {
+            unlocked = true;
+        }
+
+        for (int i = 0; i < PlayerPrefs.GetInt("Lv" + gameObject.name); i++)
+        {
+            stars[i].gameObject.GetComponent<Image>().sprite = starSprite;
+        }
     }
     
     private void UpdateLevelImage()
@@ -39,6 +61,7 @@ public class LevelSelection : MonoBehaviour
             }
         }
     }
+    
 
     public void PressSelection(string _LevelName) //when we press this level, we can move to the corresponding Scene to play
     {
