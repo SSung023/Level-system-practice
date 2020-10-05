@@ -13,8 +13,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
-    m_Keys: []
-    m_Values: 
+    m_Keys:
+    - Assets/Scenes/00_Level Selection.unity
+    - Assets/Scenes/01_Level 01.unity
+    - Assets/Scenes/01_Level 01.unity.meta
+    - Assets/Scenes/02_Level 02.unity
+    - Assets/Scenes/02_Level 02.unity.meta
+    - Assets/Scenes/03_Level 03.unity
+    - Assets/Scenes/03_Level 03.unity.meta
+    - Assets/Scenes/04_Level 04.unity
+    - Assets/Scenes/04_Level 04.unity.meta
+    - Assets/Scenes/05_Level 05.unity
+    - Assets/Scenes/05_Level 05.unity.meta
+    - Assets/Scenes/06_Level 06.unity
+    - Assets/Scenes/06_Level 06.unity.meta
+    - Assets/Scenes/07_Level 07.unity
+    - Assets/Scenes/07_Level 07.unity.meta
+    - Assets/Scenes/08_Level 08.unity
+    - Assets/Scenes/08_Level 08.unity.meta
+    - Assets/Scenes/09_Level 09.unity
+    - Assets/Scenes/09_Level 09.unity.meta
+    - Assets/Scenes/10_Level 10.unity
+    - Assets/Scenes/10_Level 10.unity.meta
+    - Assets/Scenes/11_Level 11.unity
+    - Assets/Scenes/11_Level 11.unity.meta
+    - Assets/Scenes/12_Level 12.unity
+    - Assets/Scenes/12_Level 12.unity.meta
+    - Assets/Scenes/13_Level 13.unity
+    - Assets/Scenes/13_Level 13.unity.meta
+    - Assets/Scripts/LevelSelection.cs
+    - Assets/Scripts/LevelSelection.cs.meta
+    - Assets/Scripts/SingleLevel.cs
+    - Assets/Scripts/SingleLevel.cs.meta
+    - Assets/Scripts/UIManager.cs
+    - Assets/Scripts/UIManager.cs.meta
+    - ProjectSettings/EditorBuildSettings.asset
+    - 
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
